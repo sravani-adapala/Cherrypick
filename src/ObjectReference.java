@@ -1,5 +1,5 @@
 public class ObjectReference {
-    public String demo(){
+    public String java(){
         return "demo";
 
     }
