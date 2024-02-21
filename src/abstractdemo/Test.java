@@ -7,7 +7,7 @@ import model.SoundSystem;
 public class Test {
     public static void main(String[] args) {
 
-        SafariBasic safariBasic = new SafariBasic();
+        Car safariBasic = new SafariBasic();
 
         SoundSystem soundSystem = safariBasic.soundSystem();
         System.out.println(" Basic car frequency" + soundSystem);
@@ -15,7 +15,7 @@ public class Test {
         System.out.println("Basic car driving" + drive);
 
 
-        SafariTopEnd safariTopEnd = new SafariTopEnd();
+        Car safariTopEnd = new SafariTopEnd();
 
         SoundSystem soundSystem1 = safariTopEnd.soundSystem();
         System.out.println(" Top end car frequency" + soundSystem1);
